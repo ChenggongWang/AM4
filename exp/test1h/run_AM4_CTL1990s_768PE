@@ -43,8 +43,8 @@ set datatable  = $Root/exp/data_table   # path to data table (specifies data fil
 set input_data_dir = /scratch/gpfs/hq4324/AM4/input/AM4.input_data 
 #set gridSpec = $Root/mosaics/bf_mosaics_v2.tar 
 #set initCond = $Root/initcond/bf_initcond_v4.tar
-set sst_data = /tigress/wenchang/AM4/input_wy/From_AM4_default_input/hadisst_sst.clim.1986-2005.repeat.nc
-set ice_data = /tigress/wenchang/AM4/input_wy/From_AM4_default_input/hadisst_ice.clim.1986-2005.repeat.nc
+set sst_data = /projects/GEOCLIM/hengquan/models_stellar/AM4/hadisst/hadisst_sst_ctl.data.nc
+set ice_data = /projects/GEOCLIM/hengquan/models_stellar/AM4/hadisst/hadisst_ice_ctl.data.nc
 #--------------------------------------------------------------------------------
 # The input data should also be put here: 
 # ftp://ftp.gfdl.noaa.gov/pub/projects/CM2.5_and_FLOR/FLOR_input_data.tar.gz
