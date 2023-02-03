@@ -487,8 +487,8 @@
 /
 
  &coupler_nml
-        months = 1,
-        days   = 0,
+        months = 0,
+        days   = 5,
         current_date = 1990,1,1,0,0,0,
         calendar = 'julian'
         dt_atmos = 1800,
