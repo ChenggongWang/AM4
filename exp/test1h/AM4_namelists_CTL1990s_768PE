@@ -952,7 +952,7 @@
       zenith_spec = 'diurnally_varying',
       using_restart_file = .false.
       do_conserve_energy = .true.
-      sw_rad_time_step = 3600,
+      sw_rad_time_step = 10800,
       use_single_lw_sw_ts = .false.,
 /
 
