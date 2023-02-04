@@ -46,22 +46,20 @@ c96L33_am4p0
 "radiation", "swup_toa_clr",                   "swup_toa_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
 "NN_diag",   "nn_tdt_lw",                      "nn_tdt_lw",           "atmos_8xdaily",     "all", .true.,  "none", 2
 "NN_diag",   "nn_tdt_sw",                      "nn_tdt_sw",           "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_lwdn_sfc",                    "nn_lwdn_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_lwup_sfc",                    "nn_lwup_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swdn_sfc",                    "nn_swdn_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swup_sfc",                    "nn_swup_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_olr",                         "nn_olr",              "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swdn_toa",                    "nn_swdn_toa",         "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swup_toa",                    "nn_swup_toa",         "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_tdt_lw_clr",                  "nn_tdt_lw_clr",       "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_tdt_sw_clr",                  "nn_tdt_sw_clr",       "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_lwdn_sfc_clr",                "nn_lwdn_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_lwup_sfc_clr",                "nn_lwup_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swdn_sfc_clr",                "nn_swdn_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swup_sfc_clr",                "nn_swup_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_olr_clr",                     "nn_olr_clr",          "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swdn_toa_clr",                "nn_swdn_toa_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
-"NN_diag",   "nn_swup_toa_clr",                "nn_swup_toa_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_lwdn_sfc",                    "nn_lwdn_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_lwup_sfc",                    "nn_lwup_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swdn_sfc",                    "nn_swdn_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swup_sfc",                    "nn_swup_sfc",         "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_olr",                         "nn_olr",              "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swdn_toa",                    "nn_swdn_toa",         "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swup_toa",                    "nn_swup_toa",         "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_tdt_lw_clr",                  "nn_tdt_lw_clr",       "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_tdt_sw_clr",                  "nn_tdt_sw_clr",       "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_lwdn_sfc_clr",                "nn_lwdn_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swdn_sfc_clr",                "nn_swdn_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swup_sfc_clr",                "nn_swup_sfc_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_olr_clr",                     "nn_olr_clr",          "atmos_8xdaily",     "all", .true.,  "none", 2
+#"NN_diag",   "nn_swup_toa_clr",                "nn_swup_toa_clr",     "atmos_8xdaily",     "all", .true.,  "none", 2
 # ############
 # atmos_scalar
 # ############
