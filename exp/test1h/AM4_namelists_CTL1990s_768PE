@@ -954,6 +954,8 @@
       do_conserve_energy = .true.
       sw_rad_time_step = 10800,
       use_single_lw_sw_ts = .false.,
+      do_rad_nn = .true.
+      rad_nn_para_nc = 'RadNN_para_ReLU_L5W256.nc'
 /
 
  &radiative_gases_nml
