@@ -49,9 +49,9 @@
     sw_ssa_root = "omgsw"
     sw_asy_filename = "asmsw_data.nc"
     sw_asy_root = "asmsw"
-    do_lwaerosol = .true.,
-    do_swaerosol = .true.,
-    aerosol_data_set = "Ginoux_Reddy"
+    do_lwaerosol = .false.,
+    do_swaerosol = .false.,
+    !aerosol_data_set = "Ginoux_Reddy"
     optical_filename = "AM4_201510",
     sulfate_indices = 30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,
                       30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,
@@ -948,14 +948,15 @@
       rad_package = 'sea_esf',
       do_clear_sky_pass=.true.,
       !calc_hemi_integrals = .false.,
-      renormalize_sw_fluxes=.true.,
+      renormalize_sw_fluxes=.false.,
       zenith_spec = 'diurnally_varying',
       using_restart_file = .false.
       do_conserve_energy = .true.
       sw_rad_time_step = 10800,
       use_single_lw_sw_ts = .false.,
       do_rad_nn = .true.
-      rad_nn_para_nc = 'RadNN_para_ReLU_L5W256.nc'
+      nn_diag_speed = .false.
+      rad_nn_para_nc = 'RadNN_para_ReLU_L5W256.'
 /
 
  &radiative_gases_nml
@@ -966,7 +967,7 @@
 
       time_varying_co2 = .false.,
       co2_variation_type = 'linear',
-      co2_dataset_entry = 1990 1 1 0 0 0
+      co2_dataset_entry = 2000 1 1 0 0 0
       co2_specification_type = 'time_series',
       co2_floor = 100.0E-06,
       co2_ceiling = 1600.0E-06,
