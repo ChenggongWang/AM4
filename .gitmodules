@@ -40,3 +40,6 @@
 	path = src/atmos_phys
 	url = git@github.com:ChenggongWang/atmos_phys.git
 	branch = NN_Rad0_driver
+[submodule "AM4_RadNN_run"]
+	path = AM4_RadNN_run
+	url = git@github.com:ChenggongWang/AM4_RadNN_run.git
