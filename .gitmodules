@@ -39,3 +39,6 @@
 [submodule "src/land_null"]
 	path = src/land_null
 	url = https://github.com/NOAA-GFDL/land_null.git
+[submodule "AM4_RadNN_run"]
+	path = AM4_RadNN_run
+	url = git@github.com:ChenggongWang/AM4_RadNN_run.git
