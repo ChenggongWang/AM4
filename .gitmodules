@@ -12,7 +12,7 @@
 	url = https://github.com/NOAA-GFDL/GFDL_atmos_cubed_sphere.git
 [submodule "src/atmos_phys"]
 	path = src/atmos_phys
-	url = https://github.com/NOAA-GFDL/atmos_phys.git
+	url = git@github.com:ChenggongWang/atmos_phys.git
 [submodule "src/land_lad2"]
 	path = src/land_lad2
 	url = https://github.com/NOAA-GFDL/lm4.git

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# load modules or conda environments here
+source /usr/share/Modules/init/bash
 module purge
 module load intel/19.1
 module load intel-mpi/intel/2019.7
